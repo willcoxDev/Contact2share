@@ -9,11 +9,23 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Loading="Grid_Loading">
 
-        <ListView x:Name="lstBox" HorizontalAlignment="Left" Height="100" Margin="61.776,88.248,0,0" VerticalAlignment="Top" Width="239.363" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" ItemsSource="{Binding myList}">
+        <ListView x:Name="lstBox" HorizontalAlignment="Left" Height="191.544" Margin="61.776,26.986,0,0" VerticalAlignment="Top" Width="239.363" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" ItemsSource="{Binding myList}" SelectionChanged="lstBox_SelectionChanged">
             <ListView.RenderTransform>
                 <CompositeTransform SkewY="-1.204" TranslateY="-1.051"/>
             </ListView.RenderTransform>
         </ListView>
+        <Button x:Name="btnUpdateContact" Content="Update Contact" HorizontalAlignment="Left" Margin="164,438,0,0" VerticalAlignment="Top" Background="#FF20F50B" Click="btnUpdateContact_Click"/>
+        <Button x:Name="btnDeleteContact" Content="Delete Contact" HorizontalAlignment="Left" Margin="164,489,0,0" VerticalAlignment="Top" Background="#FFE05050" Width="124" Click="btnDeleteContact_Click"/>
+        <TextBlock x:Name="lblID" HorizontalAlignment="Left" Margin="48,236,0,0" TextWrapping="Wrap" Text="ID:" VerticalAlignment="Top"/>
+        <TextBlock x:Name="lblFirstName" HorizontalAlignment="Left" Margin="48,273,0,0" TextWrapping="Wrap" Text="First Name:" VerticalAlignment="Top"/>
+        <TextBlock x:Name="lblLastName" HorizontalAlignment="Left" Margin="48,310,0,0" TextWrapping="Wrap" Text="Last Name:" VerticalAlignment="Top"/>
+        <TextBlock x:Name="lblEmail" HorizontalAlignment="Left" Margin="48,385,0,0" TextWrapping="Wrap" Text="Email:" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="48,348,0,0" TextWrapping="Wrap" Text="Mobile:" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtID" HorizontalAlignment="Left" Margin="137,230,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="151" Height="20" Background="White"/>
+        <TextBox x:Name="txtFirstName" HorizontalAlignment="Left" Margin="137,267,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="151" Height="20" Background="White"/>
+        <TextBox x:Name="txtLastName" HorizontalAlignment="Left" Margin="137,304,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="151" Height="20" Background="White"/>
+        <TextBox x:Name="txtMobile" HorizontalAlignment="Left" Margin="137,341,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="151" Height="20" Background="White"/>
+        <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Margin="137,378,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="151" Height="20" Background="White"/>
 
     </Grid>
 </Page>

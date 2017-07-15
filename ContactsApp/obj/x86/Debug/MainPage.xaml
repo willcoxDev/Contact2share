@@ -9,11 +9,23 @@
 
     <Grid x:ConnectionId='1' Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"                       >
 
-        <ListView x:ConnectionId='2' x:Name="lstBox" HorizontalAlignment="Left" Height="100" Margin="61.776,88.248,0,0" VerticalAlignment="Top" Width="239.363" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" ItemsSource="{Binding myList}">
+        <ListView x:ConnectionId='2' x:Name="lstBox" HorizontalAlignment="Left" Height="191.544" Margin="61.776,26.986,0,0" VerticalAlignment="Top" Width="239.363" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" ItemsSource="{Binding myList}"                                           >
             <ListView.RenderTransform>
                 <CompositeTransform SkewY="-1.204" TranslateY="-1.051"/>
             </ListView.RenderTransform>
         </ListView>
+        <Button x:ConnectionId='3' x:Name="btnUpdateContact" Content="Update Contact" HorizontalAlignment="Left" Margin="164,438,0,0" VerticalAlignment="Top" Background="#FF20F50B"                               />
+        <Button x:ConnectionId='4' x:Name="btnDeleteContact" Content="Delete Contact" HorizontalAlignment="Left" Margin="164,489,0,0" VerticalAlignment="Top" Background="#FFE05050" Width="124"                               />
+        <TextBlock x:ConnectionId='5' x:Name="lblID" HorizontalAlignment="Left" Margin="48,236,0,0" TextWrapping="Wrap" Text="ID:" VerticalAlignment="Top"/>
+        <TextBlock x:ConnectionId='6' x:Name="lblFirstName" HorizontalAlignment="Left" Margin="48,273,0,0" TextWrapping="Wrap" Text="First Name:" VerticalAlignment="Top"/>
+        <TextBlock x:ConnectionId='7' x:Name="lblLastName" HorizontalAlignment="Left" Margin="48,310,0,0" TextWrapping="Wrap" Text="Last Name:" VerticalAlignment="Top"/>
+        <TextBlock x:ConnectionId='8' x:Name="lblEmail" HorizontalAlignment="Left" Margin="48,385,0,0" TextWrapping="Wrap" Text="Email:" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="48,348,0,0" TextWrapping="Wrap" Text="Mobile:" VerticalAlignment="Top"/>
+        <TextBox x:ConnectionId='9' x:Name="txtID" HorizontalAlignment="Left" Margin="137,230,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="151" Height="20" Background="White"/>
+        <TextBox x:ConnectionId='10' x:Name="txtFirstName" HorizontalAlignment="Left" Margin="137,267,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="151" Height="20" Background="White"/>
+        <TextBox x:ConnectionId='11' x:Name="txtLastName" HorizontalAlignment="Left" Margin="137,304,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="151" Height="20" Background="White"/>
+        <TextBox x:ConnectionId='12' x:Name="txtMobile" HorizontalAlignment="Left" Margin="137,341,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="151" Height="20" Background="White"/>
+        <TextBox x:ConnectionId='13' x:Name="txtEmail" HorizontalAlignment="Left" Margin="137,378,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="151" Height="20" Background="White"/>
 
     </Grid>
 </Page>

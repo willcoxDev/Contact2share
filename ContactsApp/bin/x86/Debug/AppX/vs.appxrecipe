@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\Rick Pro\Desktop\ContactsApp\ContactsApp\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-07-13T13:00:31.018</Modified>
+      <Modified>2017-07-15T10:32:39.869</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Rick Pro\Desktop\ContactsApp\ContactsApp\bin\x86\Debug\ContactsApp.exe">
       <PackagePath>entrypoint\ContactsApp.exe</PackagePath>
-      <Modified>2017-07-13T13:00:30.734</Modified>
+      <Modified>2017-07-15T10:32:39.578</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rick Pro\.nuget\packages\Microsoft.CSharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -495,6 +495,10 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2016-06-11T22:15:04.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rick Pro\Desktop\ContactsApp\ContactsApp\Contacts.xml">
+      <PackagePath>Contacts.xml</PackagePath>
+      <Modified>2017-07-15T03:54:07.903</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rick Pro\Desktop\ContactsApp\ContactsApp\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2017-07-13T10:40:18.188</Modified>
@@ -535,7 +539,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rick Pro\Desktop\ContactsApp\ContactsApp\bin\x86\Debug\ContactsApp.xr.xml">
       <PackagePath>ContactsApp.xr.xml</PackagePath>
-      <Modified>2017-07-13T10:48:41.856</Modified>
+      <Modified>2017-07-15T03:59:34.056</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.15063.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -544,11 +548,11 @@
     <AppxPackagedFile Include="C:\Users\Rick Pro\Desktop\ContactsApp\ContactsApp\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-07-13T12:59:54.318</Modified>
+      <Modified>2017-07-15T06:13:58.497</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rick Pro\Desktop\ContactsApp\ContactsApp\bin\x86\Debug\Core\ContactsApp.exe">
       <PackagePath>ContactsApp.exe</PackagePath>
-      <Modified>2017-07-13T13:00:31.014</Modified>
+      <Modified>2017-07-15T10:32:39.866</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

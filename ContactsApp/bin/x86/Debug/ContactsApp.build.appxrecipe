@@ -370,6 +370,9 @@
     <AppxPackagedFile Include="C:\Users\Rick Pro\.nuget\packages\System.Xml.XmlSerializer\4.0.11\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rick Pro\Desktop\ContactsApp\ContactsApp\Contacts.xml">
+      <PackagePath>Contacts.xml</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rick Pro\Desktop\ContactsApp\ContactsApp\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>

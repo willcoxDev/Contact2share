@@ -14,16 +14,19 @@
   <mp:PhoneIdentity PhoneProductId="c20638aa-a857-4d5a-8893-cd926f959ec1" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
+    
     <DisplayName>ContactsApp</DisplayName>
     <PublisherDisplayName>Rick Pro</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 
   <Dependencies>
+    
     <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.0.0" MaxVersionTested="10.0.0.0" />
   </Dependencies>
 
   <Resources>
+    
     <Resource Language="x-generate"/>
   </Resources>
 

@@ -335,7 +335,6 @@ C:\Users\Rick Pro\Desktop\ContactsApp\ContactsApp\bin\x86\Debug\System.Xml.Reade
 C:\Users\Rick Pro\Desktop\ContactsApp\ContactsApp\bin\x86\Debug\System.Xml.XDocument.dll
 C:\Users\Rick Pro\Desktop\ContactsApp\ContactsApp\bin\x86\Debug\System.Xml.XmlDocument.dll
 C:\Users\Rick Pro\Desktop\ContactsApp\ContactsApp\bin\x86\Debug\System.Xml.XmlSerializer.dll
-C:\Users\Rick Pro\Desktop\ContactsApp\ContactsApp\obj\x86\Debug\ContactsApp.csprojResolveAssemblyReference.cache
 C:\Users\Rick Pro\Desktop\ContactsApp\ContactsApp\obj\x86\Debug\App.g.i.cs
 C:\Users\Rick Pro\Desktop\ContactsApp\ContactsApp\obj\x86\Debug\App.g.cs
 C:\Users\Rick Pro\Desktop\ContactsApp\ContactsApp\obj\x86\Debug\MainPage.g.i.cs
@@ -423,3 +422,5 @@ C:\Users\Rick Pro\Desktop\ContactsApp\ContactsApp\obj\x86\Debug\qualifiers.txt
 C:\Users\Rick Pro\Desktop\ContactsApp\ContactsApp\obj\x86\Debug\qualifiers.txt.intermediate
 C:\Users\Rick Pro\Desktop\ContactsApp\ContactsApp\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Rick Pro\Desktop\ContactsApp\ContactsApp\obj\x86\Debug\ProjectArchitectures.txt
+C:\Users\Rick Pro\Desktop\ContactsApp\ContactsApp\obj\x86\Debug\ContactsApp.csprojResolveAssemblyReference.cache
+C:\Users\Rick Pro\Desktop\ContactsApp\ContactsApp\bin\x86\Debug\Contacts.xml
